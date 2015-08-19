@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/libs/app_libs.iml" filepath="$PROJECT_DIR$/app/libs/app_libs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/libs/app_libs.iml" filepath="$PROJECT_DIR$/app/libs/app_libs.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoyo_trip.iml" filepath="$PROJECT_DIR$/yoyo_trip.iml" />
     </modules>
   </component>
