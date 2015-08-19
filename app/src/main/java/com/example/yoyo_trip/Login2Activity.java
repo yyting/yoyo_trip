@@ -72,7 +72,7 @@ public class Login2Activity extends Activity {
 							signup_info.put("name", last_name.getText().toString() + first_name.getText().toString());
 							signup_info.put("gender", gender);
 							Log.v("set_info", signup_info.toString());
-							//new getsign_up().execute();
+							new getsign_up().execute();
 						} catch (JSONException e) {
 
 						}

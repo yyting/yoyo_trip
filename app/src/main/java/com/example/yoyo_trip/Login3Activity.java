@@ -30,7 +30,7 @@ public class Login3Activity extends Activity {
 
 				    	//�n�J�������D�e��
 						Intent getmain=new Intent();
-						getmain.setClass(Login3Activity.this, FragmentTabs.class);
+						getmain.setClass(Login3Activity.this, main.class);
 						startActivity(getmain);
 						Login3Activity.this.finish();
 				  

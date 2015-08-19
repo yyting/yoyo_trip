@@ -86,7 +86,7 @@ class getlogin extends AsyncTask<String,Integer,Integer> {
 			if ("".equals(account.getText().toString().trim()) || "".equals(passwd.getText().toString().trim())) {
 				Log.v("123", "nothing");
 				cancel(true);
-				toast = Toast.makeText(MainActivity.this,"�п�J�b���K�X", toast.LENGTH_SHORT);
+				toast = Toast.makeText(MainActivity.this,"請輸入帳號密碼", Toast.LENGTH_SHORT);
 				toast.setGravity(Gravity.CENTER | Gravity.CENTER, 0, 0);
 				toast.show();
 			}
@@ -133,13 +133,14 @@ class getlogin extends AsyncTask<String,Integer,Integer> {
 					Thread.sleep(2000);
 					PDialog.dismiss();
 					Intent getmain = new Intent();
-					getmain.setClass(MainActivity.this,FragmentTabs.class);
+					getmain.setClass(MainActivity.this, main.class);
 					startActivity(getmain);
 					MainActivity.this.finish();
 				}catch(InterruptedException e){}
+				catch (Exception e){e.printStackTrace();}
 			}else{
 				PDialog.dismiss();
-				toast = Toast.makeText(MainActivity.this,"�n�J���ѽЭ��s��J!", toast.LENGTH_SHORT);
+				toast = Toast.makeText(MainActivity.this,"帳號或密碼錯誤，請重新輸入", Toast.LENGTH_SHORT);
 				toast.setGravity(Gravity.CENTER | Gravity.CENTER, 0, 0);
 				toast.show();
 				//toast.setText();

@@ -8,8 +8,27 @@
     <string name="title_activity_login1">MainActivity</string>
     <string name="title_activity_login2">MainActivity</string>
     <string name="title_activity_login3">MainActivity</string>
+    <string name="title_activity_login4">MainActivity</string>
     <string name="title_activity_nav_main">MainActivity</string>
     <string name="title_activity_fragment_tabs">MainActivity</string>
+    <string name="title_activity_activity_map">MainActivity</string>
+    <string name="title_activity_listview2">MainActivity</string>
+    <string name="title_activity_first_view">MainActivity</string>
+    <string name="title_activity_activity_list">MainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_activity_my">MainActivity</string>
+
+    <string name="title_activity_activity_scenery">MainActivity</string>
+    <string name="title_activity_activity_scenery_one">MainActivity</string>
+    <string name="title_activity_activity_paystart">MainActivity</string>
+    <string name="title_activity_activity_paperupdate">MainActivity</string>
+    <string name="title_activity_activity_task">MainActivity</string>
+    <string name="title_activity_activity_taskpaystart">MainActivity</string>
+    <string name="title_activity_activity_gift">MainActivity</string>
+    <string name="title_activity_activity_taskdtail">MainActivity</string>
+    <string name="title_activity_activity_my_one">MainActivity</string>
+    <string name="title_activity_small">MainActivity</string>
+    <string name="title_activity_tasksmall">MainActivity</string>
     <string name="login_path">http://59.124.126.228/webadmin/pub_html/login.php</string>
     <string name="sign_up_path">http://59.124.126.228/webadmin/pub_html/sign_up.php</string>
     <string name="login_dialog_title">登入中</string>
