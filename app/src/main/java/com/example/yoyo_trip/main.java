@@ -4,6 +4,7 @@ package com.example.yoyo_trip;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -66,6 +67,7 @@ public class main extends Activity{
 		Button02.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
 				//���U������]�w����
+				Log.i("button", "button2");
 				Intent getmain=new Intent();
 				getmain.setClass(main.this, SceneryActivity.class);
 				startActivity(getmain);
